@@ -24,7 +24,7 @@ parser.add_argument('--layers',action='store',default = 2, type=int)
 parser.add_argument('--embed_size',action='store',default = 300, type=int)
 parser.add_argument('--hidden_size',action='store',default = 1024, type=int)
 parser.add_argument('--lr',action='store',default = 0.00001, type=float)
-parser.add_argument('--epoch',action='store',default = 3, type=int)
+parser.add_argument('--epoch',action='store',default = 10, type=int)
 opt = parser.parse_args()
 
 os.environ["CUDA_VISIBLE_DEVICES"] = '0'
