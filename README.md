@@ -5,11 +5,11 @@ This is an PyTorch implementation of DLGN.
 Modern NVIDIA GPU  </br>
 CUDA 10.1 </br>
 python 3.7 </br>
-Pytorch 1.5.1  </br>
+pytorch 1.5.1  </br>
 RDKit  2020.03.2.0  </br>
-Scikit-learn 0.24.0  </br>
+scikit-learn 0.24.0  </br>
 Numpy 1.18.5  </br>
-fcd   1.1 (see https://github.com/bioinf-jku/FCD )  </br>
+Fcd   1.1 (see https://github.com/bioinf-jku/FCD )  </br>
 MOSES （see https://github.com/molecularsets/moses) </br>
 tqdm  4.46.1 </br>
 
