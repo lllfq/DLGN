@@ -2,7 +2,6 @@
 This is an PyTorch implementation of DLGN.
 
 # Requirement
-
 <ul> Modern NVIDIA GPU  </ul>
 <ul> CUDA 10.1 </ul>
 <ul> python 3.7 </ul>
@@ -13,3 +12,4 @@ This is an PyTorch implementation of DLGN.
 <ul> fcd   1.1 (see https://github.com/bioinf-jku/FCD )  </ul>
 <ul> tqdm  4.46.1 </ul>
 
+# 
