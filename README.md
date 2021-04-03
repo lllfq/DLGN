@@ -30,4 +30,6 @@ python PolicyGradient.py
 ```
 
 # Step3: Evaluation
-
+```
+python test.py
+```
