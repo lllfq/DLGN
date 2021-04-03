@@ -2,16 +2,16 @@
 This is an PyTorch implementation of DLGN.
 
 # Requirement
-<ul> Modern NVIDIA GPU  </ul>
-<ul> CUDA 10.1 </ul>
-<ul> python 3.7 </ul>
-<ul> Pytorch 1.5.1  </ul>
-<ul> RDKit  2020.03.2.0  </ul>
-<ul> Scikit-learn 0.24.0  </ul>
-<ul> Numpy 1.18.5  </ul>
-<ul> fcd   1.1 (see https://github.com/bioinf-jku/FCD )  </ul>
-<ul> MOSES （see https://github.com/molecularsets/moses) </ul>
-<ul> tqdm  4.46.1 </ul>
+Modern NVIDIA GPU  </br>
+CUDA 10.1 </br>
+python 3.7 </br>
+Pytorch 1.5.1  </br>
+RDKit  2020.03.2.0  </br>
+Scikit-learn 0.24.0  </br>
+Numpy 1.18.5  </br>
+fcd   1.1 (see https://github.com/bioinf-jku/FCD )  </br>
+MOSES （see https://github.com/molecularsets/moses) </br>
+tqdm  4.46.1 </br>
 
 
 # Step1: Pre-training a prior generator
