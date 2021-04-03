@@ -12,4 +12,19 @@ This is an PyTorch implementation of DLGN.
 <ul> fcd   1.1 (see https://github.com/bioinf-jku/FCD )  </ul>
 <ul> tqdm  4.46.1 </ul>
 
-# 
+
+# Pre-training a prior generator
+In the training process, ChEMBL dataset is used to pretrain a prior generator to learn basic SMILES grammar. Here we use Teacher’s forcing  which uses the preceding ground truth tokens in the string instead of the tokens previously predicted by the network as input and maximizes the predicted probability of the next ground truth tokens at each step. It is actually a Maximum Likelihood Estimate. To train the model, run
+
+```
+python MLE.py 
+```
+
+# Fire-tuning by using DLGN framework
+The DLGN generator is initialized as the pretrained prior network, and then fine-tuned by training on DRD2/HTR1A training datasets via adversarial training and policy gradient. 
+To train the model, run
+
+```
+python PolicyGradient.py 
+```
+
