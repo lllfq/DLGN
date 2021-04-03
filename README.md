@@ -5,7 +5,7 @@ This is an PyTorch implementation of DLGN.
 In order to get started you will need:
 
 Modern NVIDIA GPU, compute capability 3.5 of newer.
-CUDA 10.1
+<ul> CUDA 10.1 </ul>
 Pytorch 1.5.1
 RDKit  2020.03.2.0
 Scikit-learn 0.24.0
